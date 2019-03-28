@@ -14,6 +14,7 @@
         }
     });
 
+
     $(document).ready(function() {
 
         $("#owl-1").owlCarousel({
@@ -81,12 +82,10 @@
         $("#owl-4").owlCarousel({
             margin: 10,
             items: 6,
-            autoplay: false,
+            autoplay: true,
             loop: true,
-            smartSpeed: 800,
-            nav: true,
+            smartSpeed: 400,
             lazyLoad: true,
-            navText: ['<i class="fa fa-angle-left left-4" aria-hidden="true"></i>', '<i class="fa fa-angle-right right-4" aria-hidden="true"></i>'],
             responsive: {
                 0: {
                     items: 3

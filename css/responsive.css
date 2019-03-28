@@ -1,12 +1,29 @@
 @media (max-width: 992px) {
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+    }
     .container-1{
        margin: 0 150px !important;
     }
 }
 @media (max-width: 768px) {
     .container-1{
-        margin: 0 100px !important;
+        margin: 0 100px !important;}
+    .fa-angle-left,.fa-angle-right{
+        display: none;
     }
+    /*#contact*/
+    .box-3{
+        top: 100px;
+    }
+    .center-title-2{
+        margin-bottom: 10px !important;
+    }
+    .center-title-2 h2{
+        font-size: 20px;
+    }
+    /*footer*/
     footer .p-1,footer .p-2{
         text-align: center;
     }
